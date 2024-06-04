@@ -1,46 +1,90 @@
 
-
-
-
+img{
+    width: 100%;
+}
 
 /* hero banner   */
 .banner {
     background-color: #f7f7f7;
     color: #2B2B2B;
 }
-.row {
+.banner .row {
     align-items: center;
 }
 
 .row h1 {
     text-transform: uppercase;
+    font-family: 'poppins', sans-serif;
 }
 
 .row p {
     font-size: 1.2em;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
 }
 
-img {
-    width:100%;
-}  
-
-.btn {
+.banner .btn {
     padding: .5em 1.5em;
     border-radius: 2em;
 }
 
 /* Media for all sizes  */
-
-@media screen and (min-width:769px){
-    p {
-        font-size: 1.2em;
+ /* banner  */
+ /* pc  view  */
+ @media (min-width: 992px) {
+    .adult-text,
+    .child-text {
+        display: flex-column;
+        justify-content: center;
+        margin-top: 70px;
     }
 }
 
-@media screen and (max-width:768px){
+/* tablet view  */
+@media screen and (max-width:810){
+    p {
+        font-size: 1.2em;
+    }
     .banner{
+        padding: 2em;
+        text-align: center;
+    }
+    .child-care{
         padding: 2em;
         text-align: center;
     }
     
 }
+/* mobile view  */
+@media screen and (max-width:768px){
+    .banner{
+        padding: 2em;
+        text-align: center;
+    }
+    .child-care{
+        padding: 2em;
+        text-align: center;
+    }
+    .adult-care{
+        padding: 2em;
+        text-align: center;
+    }
+}
+
+/* section 1 text and image  */
+
+
+.child-care .row-text {
+    justify-content: center;
+}
+.child-care .btn {
+    padding: .5em 1.5em;
+    border-radius: 2em;
+    
+}
+/* section 2 text and image  */
+.adult-care .btn {
+    padding: .5em 1.5em;
+    border-radius: 2em;
+}
+
