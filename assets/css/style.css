@@ -1,12 +1,16 @@
+img{
+    width: 100%;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'poppins', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
 }
 header {
-    background-color: #343a40;
+    background-color: #2b2b2b;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -16,11 +20,20 @@ header {
     max-width: 1200px;
     margin: auto;
 }
-h1, h2 {
+h1 {
+    color: #fff;
+}
+
+h2 {
     color: #343a40;
 }
+
+.section h2, p {
+    text-align: centre;
+}
+
 .topics {
-    display: flex;
+    display: flex-column;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -33,7 +46,7 @@ h1, h2 {
     overflow: hidden;
 }
 .topic h3 {
-    background-color: #007bff;
+    background-color: #444444;
     color: #fff;
     margin: 0;
     padding: 10px;
@@ -42,31 +55,25 @@ h1, h2 {
 .topic p {
     padding: 10px;
 }
-.topic a {
-    display: block;
-    text-align: center;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    border-top: 1px solid #ddd;
-}
+
 .topic a:hover {
-    background-color: #0056b3;
+    background-color: #dfdfdf;
 }
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #343a40;
+    background-color: #2b2b2b;
     color: #fff;
 }
 @media (max-width: 768px) {
     .topic {
-        flex: 1 1 calc(50% - 20px);
+        padding: 2em;
+        text-align: center;
     }
 }
 @media (max-width: 576px) {
     .topic {
-        flex: 1 1 100%;
+        padding: 2em;
+        text-align: center;
     }
 }
