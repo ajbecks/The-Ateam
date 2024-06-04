@@ -1,0 +1,40 @@
+.banner {
+    background-color: #f7f7f7;
+    color: #2B2B2B;
+}
+.row {
+    align-items: center;
+}
+
+.row h1 {
+    text-transform: uppercase;
+}
+
+.row p {
+    font-size: 1.2em;
+}
+
+img {
+    width: 100%;
+}  
+
+.btn {
+    padding: .5em 1.5em;
+    border-radius: 2em;
+}
+
+/* Media for all sizes  */
+
+@media screen and (min-width:769px){
+    p {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:768px){
+    .banner{
+        padding: 2em;
+        text-align: center;
+    }
+    
+}
