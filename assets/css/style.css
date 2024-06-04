@@ -69,11 +69,20 @@ img{
         padding: 2em;
         text-align: center;
     }
+    .case-study{
+        text-align: center;
+    }
 }
 
 /* section 1 text and image  */
 
-
+h2 {
+    font-family: 'poppins', sans-serif;
+}
+li{
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+}
 .child-care .row-text {
     justify-content: center;
 }
@@ -88,3 +97,21 @@ img{
     border-radius: 2em;
 }
 
+
+/* section 2 case study   */
+
+.case-study .btn {
+    padding: .5em 1.5em;
+    border-radius: 2em;
+}
+
+.case-study .h2{
+    font-family: 'poppins', sans-serif;
+    color: #444444;
+}
+
+.case-study p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    color: #2B2B2B;
+}
