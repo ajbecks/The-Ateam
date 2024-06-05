@@ -28,51 +28,7 @@ img{
     border-radius: 2em;
 }
 
-/* Media for all sizes  */
- /* banner  */
- /* pc  view  */
- @media (min-width: 992px) {
-    .adult-text,
-    .child-text {
-        display: flex-column;
-        justify-content: center;
-        margin-top: 70px;
-    }
-}
 
-/* tablet view  */
-@media screen and (max-width:810){
-    p {
-        font-size: 1.2em;
-    }
-    .banner{
-        padding: 2em;
-        text-align: center;
-    }
-    .child-care{
-        padding: 2em;
-        text-align: center;
-    }
-    
-}
-/* mobile view  */
-@media screen and (max-width:768px){
-    .banner{
-        padding: 2em;
-        text-align: center;
-    }
-    .child-care{
-        padding: 2em;
-        text-align: center;
-    }
-    .adult-care{
-        padding: 2em;
-        text-align: center;
-    }
-    .case-study{
-        text-align: center;
-    }
-}
 
 /* section 1 text and image  */
 
@@ -116,4 +72,54 @@ li{
     font-family: 'poppins', sans-serif;
     font-weight: 300;
     color: #2B2B2B;
+}
+
+/* Media for all sizes  */
+ /* banner  */
+ /* pc  view  */
+ @media (min-width: 992px) {
+    .adult-text,
+    .child-text {
+        display: flex-column;
+        justify-content: center;
+        margin-top: 70px;
+    }
+}
+
+/* tablet view  */
+@media screen and (max-width:810px){
+    p {
+        font-size: 1.2em;
+    }
+    .banner{
+        padding: 2em;
+        text-align: center;
+    }
+    .child-care{
+        padding: 2em;
+        text-align: center;
+    }
+    .adult-care{
+        padding: 2em;
+        text-align: center;
+    }
+    
+}
+/* mobile view  */
+@media screen and (max-width:768px){
+    .banner{
+        padding: 2em;
+        text-align: center;
+    }
+    .child-care{
+        padding: 2em;
+        text-align: center;
+    }
+    .adult-care{
+        padding: 2em;
+        text-align: center;
+    }
+    .case-study{
+        text-align: center;
+    }
 }
