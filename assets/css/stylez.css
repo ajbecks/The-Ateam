@@ -1,79 +1,138 @@
+
 img{
     width: 100%;
 }
 
-body {
+/* hero banner   */
+.banner {
+    background-color: #f7f7f7;
+    color: #2B2B2B;
+}
+.banner .row {
+    align-items: center;
+}
+
+.row h1 {
+    text-transform: uppercase;
     font-family: 'poppins', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
 }
-header {
-    background-color: #2b2b2b;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+
+.row p {
+    font-size: 1.2em;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
 }
-.container {
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
+
+.banner .btn {
+    padding: .5em 1.5em;
+    border-radius: 2em;
 }
-h1 {
-    color: #fff;
-}
+
+
+
+/* section 1 text and image  */
 
 h2 {
-    color: #343a40;
+    font-family: 'poppins', sans-serif;
+}
+li{
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+}
+.child-care .row-text {
+    justify-content: center;
+}
+.child-care .btn {
+    padding: .5em 1.5em;
+    border-radius: 2em;
+    
+}
+/* section 2 text and image  */
+.adult-care .btn {
+    padding: .5em 1.5em;
+    border-radius: 2em;
 }
 
-.section h2, p {
-    text-align: centre;
+
+/* section 2 case study   */
+.case-study {
+    background-color: #f7f7f7;
+}
+.case-study .btn {
+    padding: .5em 1.5em;
+    border-radius: 2em;
 }
 
-.topics {
-    display: flex-column;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.topic {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    flex: 1 1 calc(33.333% - 20px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-.topic h3 {
-    background-color: #444444;
-    color: #fff;
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-}
-.topic p {
-    padding: 10px;
+.case-study .h2{
+    font-family: 'poppins', sans-serif;
+    color: #444444;
 }
 
-.topic a:hover {
-    background-color: #dfdfdf;
+.case-study p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    color: #2B2B2B;
 }
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #2b2b2b;
-    color: #fff;
+
+/* Media for all sizes  */
+ /* banner  */
+ /* pc  view  */
+ @media (min-width: 992px) {
+    .adult-text,
+    .child-text {
+        display: flex-column;
+        justify-content: center;
+        margin-top: 70px;
+    }
 }
-@media (max-width: 768px) {
-    .topic {
+
+/* tablet view  */
+@media screen and (max-width:810px){
+    p {
+        font-size: 1.2em;
+    }
+    .banner{
         padding: 2em;
         text-align: center;
     }
-}
-@media (max-width: 576px) {
-    .topic {
+    .child-care{
         padding: 2em;
         text-align: center;
     }
+    .adult-care{
+        padding: 2em;
+        text-align: center;
+    }
+    
+}
+/* mobile view  */
+@media screen and (max-width:768px){
+    .banner{
+        padding: 2em;
+        text-align: center;
+    }
+    .child-care{
+        padding: 2em;
+        text-align: center;
+    }
+    .adult-care{
+        padding: 2em;
+        text-align: center;
+    }
+    .case-study{
+        text-align: center;
+    }
+}
+
+/* FAQ section   */
+
+.FAQ h2 {
+    font-family: 'poppins', sans-serif;
+    color: #444444;
+}
+    
+.FAQ p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    color: #2B2B2B;
 }
