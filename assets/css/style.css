@@ -123,3 +123,16 @@ li{
         text-align: center;
     }
 }
+
+/* FAQ section   */
+
+.FAQ h2 {
+    font-family: 'poppins', sans-serif;
+    color: #444444;
+}
+    
+.FAQ p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    color: #2B2B2B;
+}
